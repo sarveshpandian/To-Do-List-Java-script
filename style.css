@@ -1,0 +1,51 @@
+body{
+    background-color:darkgrey;
+}
+.hello{
+    width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+h1{
+    margin-bottom: 5px;
+}
+h3{
+    margin: 5px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.task{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.task div{
+    flex: 1;
+    background: #e8f3fa;
+    border-radius: 8px;
+}
+
+.keep {
+    color: green;
+}
+.enter{
+    width: 750px;
+}
+.help{
+    margin-left: 142px;
+}
+.complete{
+    margin-left: 80px;
+}
+.join{
+    margin-left: 100px;
+}

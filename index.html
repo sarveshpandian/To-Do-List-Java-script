@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Quest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="hello">
+        <h1>Campus Quest</h1>
+        <h3>Mission Tracker</h3>
+        <p>Small steps. Big goals!</p>
+    </div>
+    <div class="hello">
+        <input class="enter" type="text" placeholder="Enter a mission..." id="missiontext">
+        <button onclick="addMission()">Add Mission</button>
+
+        <div class="task">
+            <div>Total Missions <h2 id="total">5</h2></div>
+            <div>Completed Mission <h2 id="completed"></h2></div>
+            <div>Pending Mission<h2 id="pending">3</h2></div>       
+    </div>
+    </div>
+    <div class="hello" id="missions">
+        <h2>My Missions</h2>
+        <p><input type="checkbox" checked onchange="count()">Attend Technical Workshop
+             <button onclick="deleteMission(this)">Delete</button></p>
+        <p><input type="checkbox" checked onchange="count()">Solve 5 Leetcode Questions
+             <button onclick="deleteMission(this)">Delete</button></p>
+        <p><input type="checkbox" checked onchange="count()">Help a Junior
+             <button class="help" onclick="deleteMission(this)">Delete</button></p>
+        <p><input type="checkbox" checked onchange="count()">Complete mini projects
+             <button class="complete" onclick="deleteMission(this)">Delete</button></p>
+        <p><input type="checkbox" checked onchange="count()">Join a Club Activity
+             <button class="join" onclick="deleteMission(this)">Delete</button></p>
+    </div>
+    <div class="hello">
+    <p class="keep"> Keep going! You're doing great!</p>
+    </div>
+</body>
+</html>
